@@ -1,0 +1,23 @@
+.premiery {
+  background: inherit;
+  /* border: 1px solid #000; */
+  width: 80vw;
+  height: 80vh;
+  border-radius: 20px;
+  margin: 1vh auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame-yt {
+  width: 60vw;
+  height: 60vh;
+}
+@media screen and (max-width: 600px) {
+  .frame-yt {
+    width: 85vw;
+    height: 45vh;
+  }
+}

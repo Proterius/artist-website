@@ -1,0 +1,72 @@
+.column {
+  width: 90%;
+  padding: 0 10px;
+  margin: 5px auto;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 10px;
+}
+.img-kimjestem {
+  width: 30vw;
+  height: 50vh;
+  border-radius: 10px;
+}
+.card-description {
+  text-align: center;
+  padding: 5rem;
+}
+.card-description > h1 {
+  font-size: 3rem;
+}
+.card-description > h4 {
+  font-size: 1.3rem;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  background-color: #c5c6c7;
+  border-radius: 15px;
+  transform: scale(1);
+  transition: 0.4s ease-in-out;
+  display: flex;
+  flex-direction: row;
+}
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  background-color: #c5c6c7;
+  border-radius: 15px;
+  transform: scale(1.01);
+  transition: 0.4s ease-in-out;
+}
+.row > .column > .card > h1 {
+  padding: 0;
+  padding-bottom: 4px;
+  margin: 0;
+}
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 80%;
+    margin: 5px auto;
+  }
+  .row {
+    margin: 0 auto;
+  }
+  .card {
+    flex-direction: column;
+  }
+  .img-kimjestem {
+    width: 100%;
+  }
+  .card-description {
+    padding: 0;
+  }
+  .
+}
+@media screen and (max-width: 800) {
+}
