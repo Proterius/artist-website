@@ -1,0 +1,89 @@
+.album {
+  background-color: inherit;
+  width: 100vw;
+  height: 80vh;
+  /* border: 1px solid black; */
+  /* box-shadow: 0 0 200px #000; */
+  margin: 25vh 0;
+}
+.album-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #fff;
+}
+.zdjecie-album-psychika {
+  width: 200px;
+  height: 250px;
+  background-color: #fff;
+}
+#psychika-zdjecie {
+  width: 220px;
+  height: 250px;
+  box-shadow: 0 5px 10px #000;
+}
+.nazwa-albumu {
+  color: #fff;
+  width: 50%;
+
+  height: 250px;
+  margin-left: 5rem;
+}
+.nazwa-albumu > h1 {
+  font-size: 5rem;
+}
+.nazwa-albumu > h1,
+h2 {
+  margin-left: 3rem;
+}
+.album-content {
+  width: 100%;
+  height: auto;
+}
+.album-content > table {
+  width: 100%;
+  height: 100px;
+
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.album-content > table > tr,
+td {
+  width: 100%;
+
+  padding: 0;
+  margin: 0;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.album-content > table > td {
+  border-bottom: 1px solid #444;
+}
+.album-pojedynczy {
+  border-bottom: solid 1px #444;
+  margin-bottom: 2rem;
+}
+
+.album-odnosnik > a {
+  text-decoration: none;
+  color: #333;
+}
+.album-tytul {
+  text-align: center;
+}
+.album-odnosnik {
+  width: 5%;
+}
+.album-czas-piosenki {
+  width: 10%;
+}
+.album-tytul-piosenki {
+  width: 50%;
+  padding-left: 10px;
+}
+.album-artysta {
+  width: 30%;
+}
