@@ -10,6 +10,9 @@
 .links {
   margin: 0.1rem;
 }
+.brand-title > h1 {
+  text-shadow: 0 7px 10px #333;
+}
 .navbar > .brand-title > h1 {
   margin-top: 1vh;
 }

@@ -9,9 +9,10 @@
   margin: 10px;
 }
 .img-kimjestem {
-  width: 30vw;
-  height: 50vh;
-  border-radius: 10px;
+  width: 90%;
+  height: 90%;
+  padding: 0;
+  margin: 0;
 }
 .card-description {
   text-align: center;
@@ -23,11 +24,18 @@
 .card-description > h4 {
   font-size: 1.3rem;
 }
+.photo {
+  padding: 0;
+  margin: 0;
+  width: 60%;
+  display: flex;
+  align-self: center;
+}
 
 /* Style the counter cards */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+
   background-color: #c5c6c7;
   border-radius: 15px;
   transform: scale(1);
@@ -36,7 +44,7 @@
   flex-direction: row;
 }
 .card:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   background-color: #c5c6c7;
   border-radius: 15px;
@@ -49,7 +57,7 @@
   margin: 0;
 }
 /* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) and (min-width: 300px) {
   .column {
     width: 80%;
     margin: 5px auto;
@@ -66,7 +74,74 @@
   .card-description {
     padding: 0;
   }
-  .
+  .img-kimjestem {
+    width: 100%;
+    height: 100%;
+  }
+  .photo {
+    width: 100%;
+  }
+  .row > .column > .card > .card-description > h1 {
+    padding-bottom: 1rem;
+    border-bottom: solid 1px #fff;
+  }
 }
-@media screen and (max-width: 800) {
+
+@media (max-width: 900px) and (min-width: 601px) {
+  .column {
+    width: 60%;
+    margin: 5px auto;
+  }
+  .row {
+    margin: 0 auto;
+  }
+  .card {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .card-description {
+    padding: 0;
+  }
+  .img-kimjestem {
+    width: 100%;
+  }
+  .photo {
+    width: 100%;
+  }
+
+  .row > .column > .card > .card-description > h1 {
+    padding-bottom: 1rem;
+    border-bottom: solid 1px #fff;
+  }
+}
+@media (max-width: 1200px) and (min-width: 901px) {
+  .column {
+    width: 60%;
+    margin: 5px auto;
+  }
+  .row {
+    margin: 0 auto;
+  }
+  .card {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .card-description {
+    padding: 0;
+    height: 100%;
+  }
+  .img-kimjestem {
+    width: 100%;
+    height: 100%;
+  }
+  .photo {
+    height: 50%;
+    width: 100%;
+  }
+  .row > .column > .card > .card-description > h1 {
+    padding-bottom: 1rem;
+    border-bottom: solid 1px #fff;
+  }
 }
