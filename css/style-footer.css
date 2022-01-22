@@ -1,14 +1,17 @@
 .stopka {
   width: 100%;
-  height: 12vh;
-  margin: 0;
+  height: 90px;
+  margin: 20px 0 0 0;
   padding: 0;
   display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  align-items: center;
   flex-direction: row;
   clear: both;
 }
 .social {
   background-color: #000;
   color: #fff;
-  width: 20%;
+  margin: 15px;
 }
