@@ -1,8 +1,8 @@
 .premiery {
   background: inherit;
   /* border: 1px solid #000; */
-  width: 80vw;
-  height: 80vh;
+  width: 100%;
+  height: 100%;
   border-radius: 20px;
   margin: 30% auto;
   display: flex;
@@ -15,9 +15,21 @@
   width: 60vw;
   height: 60vh;
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) and (min-width: 300) {
+  .premiery {
+    background: inherit;
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 80vh;
+    border-radius: 20px;
+    margin: 30% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .frame-yt {
-    width: 85vw;
+    width: 100%;
     height: 45vh;
   }
 }
